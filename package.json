@@ -1,6 +1,6 @@
 {
 	"name": "create-matrix",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Create an array matrix.",
 	"repository": "https://github.com/Richienb/create-matrix.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
