@@ -1,41 +1,46 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# create-matrix [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/create-matrix/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/create-matrix)
 
-My awesome module.
+Create an array matrix.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/create-matrix.png)](https://npmjs.com/package/create-matrix)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install create-matrix
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const createMatrix = require("create-matrix");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+createMatrix(2, 3, 0);
+/*[
+	[0, 0, 0],
+	[0, 0, 0]
+]*/
 ```
 
 ## API
 
-### theModule(input, options?)
+### createMatrix(rows, columns, value?)
 
-#### input
+#### rows
 
-Type: `string`
+Type: `positive integer`
 
-Lorem ipsum.
+The rows to create.
 
-#### options
+#### columns
 
-Type: `object`
+Type: `positive integer`
 
-##### postfix
+The columns to create.
 
-Type: `string`\
-Default: `rainbows`
+#### value
 
-Lorem ipsum.
+Type: `any`\
+Default: `empty`
+
+The default value to insert.

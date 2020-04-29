@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "create-matrix",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Create an array matrix.",
+	"repository": "https://github.com/Richienb/create-matrix.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,10 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"array",
+		"matrix"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.8.1",

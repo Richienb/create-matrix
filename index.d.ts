@@ -1,15 +1,19 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Create an array matrix.
+@param rows The rows to create.
+@param columns The columns to create.
+@param value The default value to insert.
 @example
 ```
-const theModule = require("the-module");
+const createMatrix = require("create-matrix");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+createMatrix(2, 3, 0);
+/*[
+	[0, 0, 0],
+	[0, 0, 0]
+]*\/
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function createMatrix<ArrayItem>(rows: number, columns: number, value?: ArrayItem): ArrayItem[][]
 
-export = theModule
+export = createMatrix
